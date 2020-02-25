@@ -18,6 +18,7 @@
                     <i class="fas fa-campground fa-2x fa-logo"></i>
                 <h2 class="">Bekijk de opkomsten</h2>
                 <p class="lead">Een online overzicht van de prikbordbrief</p>
+                    <a href="meeting.php" class="btn btn-lg btn-outline-secondary">Bekijk</a>
                 </div>
             </div>
             <div class="col-sm-4 text-center padding-box">
@@ -32,6 +33,7 @@
                     <i class="fas fa-pencil-alt fa-2x fa-logo"></i>
                 <h2 class="">Bekijk blog's</h2>
                 <p class="lead">Een aantal blog's over de afgelopen activiteiten</p>
+                    <a href="blog_overview.php" class="btn btn-lg btn-outline-secondary">Bekijk</a>
                 </div>
             </div>
         </div>

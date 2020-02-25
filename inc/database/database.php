@@ -9,6 +9,4 @@ require_once 'DbTable.php';
 require_once "obj/User.php";
 require_once "obj/Meeting.php";
 require_once "obj/Blog.php";
-// require_once "obj/Products.php";
-// require_once "obj/Wishlist.php";
-// require_once "obj/Review.php";
+require_once "obj/Mail.php";

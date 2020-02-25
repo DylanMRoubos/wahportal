@@ -1,5 +1,5 @@
 <?php
-require_once "inc/package.php";
+require_once "inc/database/database.php";
 
 if(isset($_SESSION["loggedin"])) {
     header("location: ./index.php");

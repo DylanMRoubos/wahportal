@@ -1,4 +1,4 @@
 <div class="footer">
-    <img class="WorldWideImporters" alt="logo" src="./public/images/wide-world-importers-logo-small.png"><br> <!--src="http://www.surroundtech.com/media/a8/ae2e/a8ae2eb1fefdbf650518e8a689f41956/wide-world-importers-logo-small.png"-->
-    <p>© ICTM1e1</p>
+    <img width="50px" height="100px" alt="logo" src="./public/images/logo.png"><br>
+    <p>© Dylan Roubos</p>
 </div>

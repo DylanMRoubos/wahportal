@@ -1,6 +1,6 @@
 body {
-    position: relative;
-    min-height: 100vh;
+    /*position: relative;*/
+    /*min-height: 150vh;*/
     /* background-color: #353535; */
     color: #AAAAAA;
     font-family: 'Open Sans', sans-serif;
@@ -95,11 +95,11 @@ body {
 
 .footer {
     /*height of the footer*/
-    height: 6em;
+    height: 8em;
     /*position on screen*/
     left: 0;
-    bottom: 0;
-    position: absolute;
+    /*bottom: 0;*/
+    /*position: absolute;*/
     /*total width over the user screen*/
     width: 100%;
     /*(background)color*/
