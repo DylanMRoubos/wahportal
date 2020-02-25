@@ -144,4 +144,14 @@ class Blog extends DbTable {
 
         return $result;
     }
+
+    function get_all_blogs() {
+
+        $query = "SELECT id, title, description, created_at FROM blog B ORDER BY created_at DESC";
+
+        $result = null;
+        self::query('wah', $query, $result);
+
+        return $result;
+    }
 }

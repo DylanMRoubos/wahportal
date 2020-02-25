@@ -98,9 +98,6 @@ abstract class dbTable {
             case ("wah"):
                 return $this->wah;
             break;
-            case ("wwic"):
-               return $this->wwic;
-            break;
             default :
                 throw Exception("Unknown database connection");
             break;
