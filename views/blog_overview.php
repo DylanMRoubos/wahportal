@@ -13,7 +13,7 @@
                     <br><br>
                     <p><?php if(strlen($single_blog["description"]) > 500) print(substr(Strip_tags($single_blog["description"], ""), 0, 500).'.........'); else { print(Strip_tags($single_blog["description"], "")); } ?></p>
                     <div class="center">
-                        <a href="blog.php?p=<?= $single_blog["id"]?>" class="btn btn-lg btn-outline-secondary">Lees meer</a>
+                        <a href="blog?p=<?= $single_blog["id"]?>" class="btn btn-lg btn-outline-secondary">Lees meer</a>
                     </div>
                     <hr>
 

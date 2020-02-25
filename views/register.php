@@ -5,7 +5,7 @@
                 <div class="login-box">
                     <h2>Registreer</h2>
                     <p>Vul het formulier in om een account aan te maken</p>
-                    <form action="register.php" method="POST">
+                    <form action="register" method="POST">
                         <div class="form-group">
                             <label>E-mail</label>
                             <input type="email" name="email" class="form-control <?php echo (isset($_SESSION['email_r'])) ? 'is-invalid' : ''; ?>">

@@ -1,8 +1,3 @@
-<?php
-
-$meetings = $meeting->get_meeting(1);
-?>
-
 <main>
     <div class="container">
         <div class="row">
@@ -18,7 +13,6 @@ $meetings = $meeting->get_meeting(1);
                     </thead>
                     <tbody>
                     <?php
-
                     foreach ($meetings as $meeting) {
 
                         if ($meeting["meeting_title"] == "GEEN OPKOMST") {

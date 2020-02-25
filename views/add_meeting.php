@@ -1,7 +1,7 @@
 <main>
     <div class="container">
         <div class="row">
-            <form action="add_meeting.php" method="POST" style="width: 100%;">
+            <form action="add_meeting" method="POST" style="width: 100%;">
                 <div class="form-row">
                     <div class="form-group col-md-6">
                     <label for="begin_time">*Begin datum + tijd:</label>

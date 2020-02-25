@@ -4,7 +4,6 @@
     <div class="mx-auto opacity-background justify-content-center align-self-center">
         <h1 class="display-5">Waingoengahorde Dashboard</h1>
         <p class="lead font-weight-normal">De plek om alles bij te houden van de WAH</p>
-        <!-- <a class="btn btn-outline-secondary" href="#">Coming soon</a> -->
     </div>
     <div class="product-device shadow-sm d-none d-md-block"></div>
     <div class="product-device product-device-2 shadow-sm d-none d-md-block"></div>
@@ -18,7 +17,7 @@
                     <i class="fas fa-campground fa-2x fa-logo"></i>
                 <h2 class="">Bekijk de opkomsten</h2>
                 <p class="lead">Een online overzicht van de prikbordbrief</p>
-                    <a href="meeting.php" class="btn btn-lg btn-outline-secondary">Bekijk</a>
+                    <a href="bulletin_board" class="btn btn-lg btn-outline-secondary">Bekijk</a>
                 </div>
             </div>
             <div class="col-sm-4 text-center padding-box">
@@ -33,7 +32,7 @@
                     <i class="fas fa-pencil-alt fa-2x fa-logo"></i>
                 <h2 class="">Bekijk blog's</h2>
                 <p class="lead">Een aantal blog's over de afgelopen activiteiten</p>
-                    <a href="blog_overview.php" class="btn btn-lg btn-outline-secondary">Bekijk</a>
+                    <a href="blog_overview" class="btn btn-lg btn-outline-secondary">Bekijk</a>
                 </div>
             </div>
         </div>

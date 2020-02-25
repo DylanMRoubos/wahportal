@@ -10,6 +10,7 @@
                     <img class="futured-image" src="public/images/<?= $images[0]["name"] ?>" alt="Main-image">
                     <br><br>
                     <p><?= $blog_content[0]["description"] ?></p>
+                    <hr>
                     <div class="row">
                         <?php foreach ($images as $image) { ?>
                             <div class="col-sm-4 no-padding">
