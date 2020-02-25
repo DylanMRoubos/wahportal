@@ -1,0 +1,3 @@
+#Ignore the json conf with passwords
+conf/db.json
+conf/mail.json
