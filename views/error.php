@@ -8,7 +8,7 @@
                 <h1 class="big-h1">ERROR</h1>
                 <p class="big-p"><?= $error_message ?><br> Ga terug:</p>
 
-                <form action="index.php">
+                <form action="index">
                     <input type="submit" class="custom-button-primary btn btn-lg" value="Home" />
                 </form>
             </div>

@@ -12,7 +12,7 @@
             <div class="col-sm-12">
                 <div class="login-box">
                  <h2 class="center ">Inloggen</h2>
-                    <form action="login.php" method="POST">
+                    <form action="login" method="POST">
                         <div class="form-group">
                             <label class="">E-mail:</label>
                             <input type="mail" name="mail" <?php if (isset($_SESSION["mail_err_l"])) { echo "value=" . $_SESSION["mail_l"] . ""; }?> class="form-control  <?php echo (isset($_SESSION['mail_err_l'])) ? 'is-invalid' : ''; ?>">
@@ -26,7 +26,7 @@
                         <div class="form-group">
                             <input type="submit" class="btn custom-button-primary" value="Login">
                         </div>
-                        <p>Heb je nog geen account? <a href="register.php">Registreer hier.</a></p>
+                        <p>Heb je nog geen account? <a href="register">Registreer hier.</a></p>
                     </form>
                 </div>
             </div>

@@ -44,4 +44,15 @@ class Meeting extends DbTable  {
 
         return $result;
     }
+
+    function get_bulletin_meetings($season) {
+
+        $query = "SELECT meeting_date_start, meeting_date_end, meeting_title, meeting_extra FROM meeting WHERE meeting_bulletin_board = 1 AND meeting_type = 0 AND meeting_season = ?";
+
+        $result = NULL;
+
+        self::query('wah', $query, $result, 's', [$season] );
+
+        return $result;
+    }
 }
